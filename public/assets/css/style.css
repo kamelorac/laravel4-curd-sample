@@ -1,0 +1,97 @@
+/*
+ * Masthead for nav
+ */
+.nav-bar {
+  background-color: #428bca;
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Nav links */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+/* Active state gets a caret at the bottom */
+.nav .active {
+  color: #fff;
+}
+.nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+.error {
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.user-list-table
+{
+  float: left;
+  padding-right: 5px;
+}
+
+.st-row{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.minibutton {
+    -moz-user-select: none;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fcfcfc, #eee);
+    background-repeat: repeat-x;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 0 16px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.minibutton:hover {
+  text-decoration: none;
+}
+
+.sidebar-button {
+  float: right;
+  margin-bottom: 2px;
+}
+
+.searchbox {
+  line-height:13px;
+  opacity:0;
+}
+
+.searchbox:focus {
+  opacity: 1;
+} 
+
+.btn-search {
+  line-height: 13px;
+  opacity: 0;
+}
